@@ -1,0 +1,6 @@
+pyodbc
+dash_bootstrap_components
+pandas
+numpy
+plotly
+sqlalchemy

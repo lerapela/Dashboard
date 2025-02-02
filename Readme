@@ -1,0 +1,9 @@
+pip install requirements.txt
+Use Pycharm
+connect to database and run the files to visualise the dashboard
+
+The dashboard will show errors but do not panic just navigate through it will update layout and show statistical figures.
+
+Also make sure you have microsoft sql server management and Adventureworks2016 database
+
+Also on connection.py add servername
