@@ -1,41 +1,9 @@
-# 📊 Dashboard Visualization Project
+pip install requirements.txt
+Use Pycharm
+connect to database and run the files to visualise the dashboard
 
-## 🚀 Getting Started
-Follow these steps to set up and run the dashboard visualization.
+The dashboard will show errors but do not panic just navigate through it will update layout and show statistical figures.
 
-### 📌 Prerequisites
-Ensure you have the following installed before proceeding:
-- [PyCharm](https://www.jetbrains.com/pycharm/) (Recommended IDE)
-- [Microsoft SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms)
-- [AdventureWorks2016 Database](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)
-- Python and necessary dependencies
+Also make sure you have microsoft sql server management and Adventureworks2016 database
 
-### 🔧 Installation & Setup
-1. **Install Required Dependencies**
-   ```sh
-   pip install -r requirements.txt
-   ```
-
-2. **Configure Database Connection**
-   - Open `connection.py`
-   - Add your **SQL Server name** in the appropriate field:
-     ```python
-     SERVER_NAME = "your_server_name"
-     ```
-
-3. **Run the Dashboard**
-   - Connect to the database
-   - Execute the relevant Python files in PyCharm
-
-### 📈 Dashboard Behavior
-- The dashboard may initially show some errors—**don’t panic**
-- Simply navigate through the UI, and the layout will update
-- The statistical figures and visualizations will load accordingly
-
-### 💡 Additional Notes
-- If you encounter database connection issues, ensure your SQL Server is running
-- Verify that the **AdventureWorks2016** database is correctly attached in SSMS
-- Restart the application if required after making configuration changes
-
-Enjoy exploring! 🎯
-
+Also on connection.py add servername
